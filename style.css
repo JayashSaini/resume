@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  color: #002147;
+}
+
+.contact-info {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.contact-info a {
+  color: #002147;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #002147;
+  border-bottom: 2px solid #002147;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #002147;
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px; /* Ensures bullets are inside the margin */
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #002147;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  .contact-info {
+    font-size: 0.8em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+  .hidden {
+    display: none !important;
+  }
+}
